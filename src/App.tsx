@@ -57,7 +57,7 @@ const App: React.FC = () => {
         {/* 🖼️ Galerie d'images */}
         <div className="flex flex-col md:flex-row justify-center gap-10 mb-16">
   {images.map((img, index) => (
-    <div key={index} className="relative w-[380px] h-[460px] border-2 border-pink-400 rounded-lg shadow-md overflow-hidden group">
+    <div key={index} className="relative w-[450px] h-[560px] border-2 border-pink-400 rounded-lg shadow-md overflow-hidden group">
       <img
         src={img}
         alt={`Célébration ${index + 1}`}
